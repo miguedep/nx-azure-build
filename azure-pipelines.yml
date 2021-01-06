@@ -1,4 +1,6 @@
 trigger:
+- task: Cache@2
+  inputs:
   - master
 
 jobs:
